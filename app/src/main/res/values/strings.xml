@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Snellen Chart</string>
+
+    <string name="static_variable_metric" translatable="false">Metric</string>
+    <string name="static_variable_imperial" translatable="false">Imperial</string>
+    <string name="static_variable_snellen_reference" translatable="false">Snellen_Ref</string>
+    <string name="static_variable_tumbling_reference" translatable="false">Tumbling_E_Ref</string>
+    <string name="static_variable_landolt_reference" translatable="false">Landolt_C_Ref</string>
+    <string name="static_variable_lea_reference" translatable="false">LEA_Ref</string>
+    <string name="static_variable_sloan_reference" translatable="false">Sloan_Ref</string>
+    <string name="static_variable_denominator_20" translatable="false">20/20</string>
+    <string name="static_variable_denominator_6" translatable="false">6/6</string>
+
+    <string name="main_menu_button_snellen">Acuity</string>
+    <string name="main_menu_button_duochrome">Duochrome</string>
+    <string name="main_menu_button_settings">Settings</string>
+
+    <string name="help_icon">Help</string>
+    <string name="micro_icon">Voice Commands</string>
+
+    <string name="voice_recognition_down">down</string>
+    <string name="voice_recognition_up">up</string>
+    <string name="voice_recognition_left">left</string>
+    <string name="voice_recognition_right">right</string>
+    <string name="voice_recognition_message_acuity">UP or DOWN or LEFT or RIGHT</string>
+    <string name="voice_recognition_message_duochrome">UP or DOWN</string>
+
+    <string name="toast_maximum_size_reached">maximum size reached</string>
+    <string name="toast_minimum_size_reached">minimum size reached</string>
+
+    <string name="dialog_help_title_main_menu_activity">Application Help.</string>
+    <string name="dialog_help_content_main_menu_activity">To effectively use this App you should change the settings accordingly with your device screen specifications. Then you may use the vision tests available.</string>
+    <string name="dialog_help_title_duochrome_activity">Duochrome Help.</string>
+    <string name="dialog_help_content_duochrome_activity">You may increase or decrease pattern size by swiping up or down respectively.</string>
+    <string name="dialog_help_title_chart_activity">Acuity Help.</string>
+    <string name="dialog_help_content_chart_activity">"You may increase or decrease optotype size by swiping up or down respectively. If you just want to change optotype without changing it's size swipe left or right. You can also use an external keyboard to change the optotype and it's size by pressing the navigation arrow keys, and by pressing space key you can zoom the units for 5 seconds. "</string>
+
+    <string name="universal_expression_ok">OK</string>
+
+
+    <string name="snellen_fraction_title">Snellen Fraction</string>
+    <string name="snellen_fraction_start_value">000/000</string>
+    <string name="snellen_logmar_title">LogMAR</string>
+    <string name="snellen_logmar_start_value">00.00</string>
+    <string name="snellen_decimal_title">Decimal</string>
+    <string name="snellen_decimal_start_value">00.00</string>
+    <string name="chart_biggest_optotype_warning_1">Biggest Optotype Reached (display limits)</string>
+    <string name="chart_biggest_optotype_warning_2">Biggest Optotype Reached</string>
+    <string name="chart_smallest_optotype_warning_1">Smallest Optotype Reached (display limits)</string>
+    <string name="chart_smallest_optotype_warning_2">Smallest Optotype Reached</string>
+    <string name="chart_optotype_outside_limits_warning">Optotype Outside Custom Limits</string>
+
+
+    <string name="zero_value">0.0</string>
+    <string name="metric_system">Metric</string>
+    <string name="imperial_system">Imperial</string>
+    <string name="metric_system_name">Metric System</string>
+    <string name="imperial_system_name">Imperial System</string>
+    <string name="metric_unit_centimeters">centimeters</string>
+    <string name="metric_unit_millimeters">millimeters</string>
+    <string name="imperial_unit_inches">inches</string>
+    <string name="imperial_unit_feet">feet</string>
+    <string name="pixels">pixels</string>
+    <string name="undefined_lowercase">undefined</string>
+    <string name="not_selected_capitalized">Not selected</string>
+
+
+    <string name="optotype_format_snellen">Snellen Letters</string>
+    <string name="optotype_format_tumbling_e">Tumbling E</string>
+    <string name="optotype_format_landolt_c">Landolt C</string>
+    <string name="optotype_format_lea">LEA Symbols</string>
+    <string name="optotype_format_sloan">Sloan Letters</string>
+
+    <string name="snellen_fraction_denominator_20" translatable="false">20/20</string>
+    <string name="snellen_fraction_denominator_6" translatable="false">6/6</string>
+
+    <string name="settings_units_area_title">Units</string>
+    <string name="settings_units_main_title">Input Unit System</string>
+    <string name="settings_snellen_fraction_denominator">Snellen Fraction Denominator</string>
+    <string name="settings_user_area_title">User</string>
+    <string name="settings_user_main_title">Distance from User to Display</string>
+    <string name="settings_user_distance_dialog_title">User Distance</string>
+    <string name="settings_user_distance_dialog_message_default">Set user distance to the display in [selected unit]:</string>
+    <string name="settings_user_distance_dialog_message">Set user distance to the display in </string>
+    <string name="settings_display_diagonal_title">Screen Diagonal Size</string>
+    <string name="settings_display_diagonal_dialog_title">Display Diagonal Size</string>
+    <string name="settings_display_diagonal_dialog_message_default">Manually Set display diagonal size in [selected unit]:</string>
+    <string name="settings_display_diagonal_dialog_message">Set screen display diagonal size in </string>
+    <string name="settings_display_hresolution_title">Horizontal Resolution</string>
+    <string name="settings_display_hresolution_dialog_title">Display Horizontal Resolution</string>
+    <string name="settings_display_hresolution_dialog_message_default">Set display horizontal resolution in pixels:</string>
+    <string name="settings_display_hresolution_dialog_message">Set display horizontal resolution in pixels:</string>
+    <string name="settings_display_vresolution_title">Vertical Resolution</string>
+    <string name="settings_display_vresolution_dialog_title">Set Display Vertical Resolution</string>
+    <string name="settings_display_vresolution_dialog_message_default">Set display vertical resolution in pixels:</string>
+    <string name="settings_display_vresolution_dialog_message">Set display vertical resolution in pixels:</string>
+    <string name="settings_chart_area_title">Chart</string>
+    <string name="settings_optotype_format_title">Selected Optotype</string>
+    <string name="settings_display_area_title">Display (Portrait Position)</string>
+
+    <string name="settings_custom_limits_title">Set Custom Acuity Limits</string>
+    <string name="settings_custom_limits_title_upper">Set Upper Acuity Limit</string>
+    <string name="settings_custom_limits_title_lower">Set Lower Acuity Limit</string>
+    <string name="settings_custom_limits_message_upper">Set Upper Acuity Limit in Decimals [0 to 2]</string>
+    <string name="settings_custom_limits_message_lower">Set Lower Acuity Limit in Decimals [0 to 2]</string>
+
+    <string name="settings_contrast_sensitivity_title">Contrast</string>
+    <string name="settings_contrast_sensitivity_dialog_title">Set Contrast</string>
+    <string name="settings_contrast_sensitivity_dialog_message">Contrast must be an integer value between 0-255</string>
+
+
+
+    <string name="settings_lowcolormode_devices_title">Low Color Mode</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ideas.joaomeneses.snellen" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainMenu"
+            android:theme="@style/AppTheme.BrandedLaunch" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SnellenChartActivity"
+            android:label="@string/main_menu_button_snellen"
+            android:parentActivityName=".MainMenu"/>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/main_menu_button_settings"
+            android:parentActivityName=".MainMenu"/>
+        <activity
+            android:name=".DuochromeActivity"
+            android:label="@string/main_menu_button_duochrome"
+            android:parentActivityName=".MainMenu"/>
+    </application>
+
+</manifest>

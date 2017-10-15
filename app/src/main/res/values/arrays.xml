@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SupportedUnitSystems">
+        <item>@string/metric_system_name</item>
+        <item>@string/imperial_system_name</item>
+    </string-array>
+    <string-array name="SupportedUnitSystemsValues">
+        <item>@string/static_variable_metric</item>
+        <item>@string/static_variable_imperial</item>
+    </string-array>
+    <string-array name="SupportedSnellenFractionDenominators">
+        <item>@string/snellen_fraction_denominator_20</item>
+        <item>@string/snellen_fraction_denominator_6</item>
+    </string-array>
+    <string-array name="SupportedSnellenFractionDenominatorsValues">
+        <item>@string/static_variable_denominator_20</item>
+        <item>@string/static_variable_denominator_6</item>
+    </string-array>
+    <string-array name="SupportedOptotypes">
+        <item>@string/optotype_format_snellen</item>
+        <item>@string/optotype_format_tumbling_e</item>
+        <item>@string/optotype_format_landolt_c</item>
+        <item>@string/optotype_format_lea</item>
+        <item>@string/optotype_format_sloan</item>
+    </string-array>
+    <string-array name="SupportedOptotypesValues">
+        <item>@string/static_variable_snellen_reference</item>
+        <item>@string/static_variable_tumbling_reference</item>
+        <item>@string/static_variable_landolt_reference</item>
+        <item>@string/static_variable_lea_reference</item>
+        <item>@string/static_variable_sloan_reference</item>
+    </string-array>
+</resources>

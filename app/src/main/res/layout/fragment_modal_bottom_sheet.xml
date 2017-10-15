@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/snellen_logmar_title"
+        android:id="@+id/logMarTitleZoom"
+        android:textSize="40sp"
+        android:textAllCaps="true"
+        android:padding="6dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/snellen_logmar_start_value"
+        android:id="@+id/logMarValueZoom"
+        android:textSize="65sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textAlignment="viewEnd"
+        android:padding="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/snellen_fraction_title"
+        android:id="@+id/snellenFractionTitleZoom"
+        android:textSize="40sp"
+        android:textAllCaps="true"
+        android:padding="6dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/snellen_fraction_start_value"
+        android:id="@+id/snellenFractionValueZoom"
+        android:textSize="65sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textAlignment="viewEnd"
+        android:padding="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/snellen_decimal_title"
+        android:id="@+id/decimalTitleZoom"
+        android:textSize="40sp"
+        android:textAllCaps="true"
+        android:padding="6dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/snellen_decimal_start_value"
+        android:id="@+id/decimalValueZoom"
+        android:textSize="65sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textAlignment="viewEnd"
+        android:padding="16dp"/>
+
+</LinearLayout>
+
+
+
+
